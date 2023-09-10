@@ -36,18 +36,18 @@ CREATE TABLE senior (
 
 -- Insert data into the "junior" table
 INSERT INTO junior (id,name) VALUES
-  (1,'John'),
-  (2,'Alice'),
-  (3,'Bob'),
-  (4,'Emma');
+  (1,'Ajay'),
+  (2,'Amit'),
+  (3,'Sumit'),
+  (4,'Raja');
 
 
   -- Insert data into the "senior" table
 INSERT INTO senior (id,name) VALUES
-  (1,'Michael'),
-  (2,'Sophia'),
-  (3,'William'),
-  (4,'Bob');
+  (1,'Ravi'),
+  (2,'Hariom'),
+  (3,'Niraj'),
+  (4,'Amit');
 
 
 --Write a query that select all distinct student names.
@@ -95,18 +95,18 @@ CREATE TABLE items (
 
 -- Insert sample data into the "sellers" table
 INSERT INTO sellers (id, name, rating) VALUES
-  (1,'Seller1', 5),
-  (2,'Seller2', 3),
-  (3,'Seller3', 4),
-  (4,'Seller4', 5);
+  (1,'Ajay', 5),
+  (2,'Amit', 3),
+  (3,'Sumit', 4),
+  (4,'Raja', 5);
 
 
 -- Insert sample data into the "items" table
 INSERT INTO items (id, name, sellerId) VALUES
-  (1,'Item1', 1),  
-  (2,'Item2', 2), 
-  (3,'Item3', 1),  
-  (4,'Item4', 3);  
+  (1,'Book', 1),  
+  (2,'Mobile', 2), 
+  (3,'Laptop', 1),  
+  (4,'Earphone', 3);  
 
 
 --Write a query that selects the item name and the name of its seller for each item that belongs to a seller with a rating greater than 4.
